@@ -5,4 +5,4 @@ To run simulations using BGTF with all pool settings used for evaluation, (e.g 1
 
 The simulation will generate a set of statistical and performance evaluation summary, named by ```<Number of Subjects>-<Risk-Pattern>-<MM-DD-YYYY HH-MM-SS>.csv```, indicating which pool setting is used for the set of simulaitons with an attached time stamp.
 
-Note: Please configure your spark enviroment using the Spark configuration files for your own settings. 
+Note: Please configure your spark enviroment using the Spark configuration files for your own settings, please assign at least 32g memory for both driver and executors.
